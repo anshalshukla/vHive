@@ -20,7 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-FROM kindest/node:v1.24.0
+FROM kindest/node:v1.25.6
 
 RUN apt-get update && \
     apt-get upgrade --yes && \

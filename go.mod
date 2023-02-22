@@ -43,6 +43,7 @@ replace (
 replace (
 	github.com/firecracker-microvm/firecracker-containerd => github.com/vhive-serverless/firecracker-containerd v0.0.0-20210618171548-4a8adae2660e
 	github.com/vhive-serverless/vhive/examples/protobuf/helloworld => ./examples/protobuf/helloworld
+	github.com/vishvananda/netlink => github.com/vishvananda/netlink v1.1.0
 )
 
 require (
